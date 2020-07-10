@@ -1,7 +1,7 @@
 # SE-Logger
 SE-Logger is a small C++ class written for logging data to files
 
-### Why another logging library ?
+## Why another logging library ?
 Because I'm writing a game for fun. I'm doing mostly 
 everything myself for learning purposes and I'm making everything 
 I think is needed by other people **Open Source** 
@@ -30,14 +30,14 @@ This will create two files in the executable's directory:
 
 *info.log* and *error.log* and ***append*** to them accordingly
 
-### What doesn't it support ?
+## What doesn't it support ?
 The TODO list:
 
 - [ ] Outputting to custom file
 - [ ] Outputting to custom directory
 - [ ] Outputting to console
 
-### Contact
+## Contact
 Feel Free to contact me at:
 
 [Facebook](https://facebook.com/spounka346)
