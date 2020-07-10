@@ -9,6 +9,9 @@
 
 /**
  * @file
+ * @brief File containing Logger class for the S-Engine
+ * @see SE
+ * @see SE::Util
  */
 
 namespace SE::Util
