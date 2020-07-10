@@ -25,7 +25,13 @@
 var NAVTREE =
 [
   [ "SE-Logger", "index.html", [
-    [ "Logger", "md_README.html", null ],
+    [ "SE-Logger", "md_README.html", [
+      [ "Why another logging library ?", "md_README.html#autotoc_md1", [
+        [ "How does it Work ?", "md_README.html#autotoc_md2", null ]
+      ] ],
+      [ "What doesn't it support ?", "md_README.html#autotoc_md3", null ],
+      [ "Contact", "md_README.html#autotoc_md4", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

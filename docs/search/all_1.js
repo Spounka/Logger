@@ -9,6 +9,5 @@ var searchData=
   ['logerror_7',['LogError',['../classSE_1_1Util_1_1Logger.html#a7ced217de6116174d1545f7affa7d58a',1,'SE::Util::Logger']]],
   ['logger_8',['Logger',['../classSE_1_1Util_1_1Logger.html',1,'SE::Util::Logger'],['../classSE_1_1Util_1_1Logger.html#aae4b3a2c03aa905e34b5b9fc8dce89fa',1,'SE::Util::Logger::Logger()']]],
   ['logger_2ehpp_9',['logger.hpp',['../logger_8hpp.html',1,'']]],
-  ['logmessage_10',['LogMessage',['../classSE_1_1Util_1_1Logger.html#a9441d2a9122535b4a879cc681164b1dc',1,'SE::Util::Logger']]],
-  ['logger_11',['Logger',['../md_README.html',1,'']]]
+  ['logmessage_10',['LogMessage',['../classSE_1_1Util_1_1Logger.html#a9441d2a9122535b4a879cc681164b1dc',1,'SE::Util::Logger']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SE-Logger: Logger</title>
+<title>SE-Logger: SE-Logger</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -82,10 +82,47 @@ $(document).ready(function(){initNavTree('md_README.html',''); initResizable(); 
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Logger </div>  </div>
+<div class="title">SE-Logger </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"></div></div><!-- contents -->
+<div class="textblock"><p>SE-Logger is a small C++ class written for logging data to files</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Why another logging library ?</h1>
+<p>Because I'm writing a game for fun. I'm doing mostly everything myself for learning purposes and I'm making everything I think is needed by other people <b>Open Source</b> under <b>MIT-License</b></p>
+<h2><a class="anchor" id="autotoc_md2"></a>
+How does it Work ?</h2>
+<p>It's as simple as: </p><div class="fragment"><div class="line"> {c++}</div>
+<div class="line">#include &lt;Logger/logger.hpp&gt;</div>
+<div class="line"> </div>
+<div class="line">void foo()</div>
+<div class="line">{</div>
+<div class="line">    SE::Util::Logger logger();</div>
+<div class="line">    logger.LogMessage(&quot;This is a logging test&quot;);</div>
+<div class="line">    logger.LogError(&quot;This is an Error in file&quot;);</div>
+<div class="line"> </div>
+<div class="line">    // Stuff goes here</div>
+<div class="line">    </div>
+<div class="line">    // Don&#39;t forget to destroy the instance after</div>
+<div class="line">    // finishing to free memory</div>
+<div class="line">    logger.Destroy();</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>This will create two files in the executable's directory:</p>
+<p><em>info.log</em> and <em>error.log</em> and <em><b>append</b></em> to them accordingly</p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+What doesn't it support ?</h1>
+<p>The TODO list:</p>
+<ul>
+<li>[ ] Outputting to custom file</li>
+<li>[ ] Outputting to custom directory</li>
+<li>[ ] Outputting to console</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Contact</h1>
+<p>Feel Free to contact me at:</p>
+<p><a href="https://facebook.com/spounka346">Facebook</a></p>
+<p><a href="https://twitter.com/boudaakkar">Twitter</a></p>
+<p>Mail: <a href="#" onclick="location.href='mai'+'lto:'+'bou'+'da'+'akk'+'ar'+'naz'+'ih'+'@gm'+'ai'+'l.c'+'om'; return false;">bouda<span style="display: none;">.nosp@m.</span>akka<span style="display: none;">.nosp@m.</span>rnazi<span style="display: none;">.nosp@m.</span>h@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
